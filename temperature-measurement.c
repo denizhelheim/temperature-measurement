@@ -8,7 +8,7 @@ int main() {
 
     int measurement_count;
 
-    printf("How many measurement would you like to do?: \n");
+    printf("How many measurement would you like to do?: ");
     scanf("%d", &measurement_count);
 
     float *measurement_degree = calloc(measurement_count, sizeof(float));
